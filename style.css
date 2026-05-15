@@ -1,0 +1,586 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero{
+    width: 100%;
+    height: 700px;
+    background: linear-gradient(rgba(0,0,0,0.5),
+    rgba(0,0,0,0.7)),
+    url('https://images.unsplash.com/photo-1555215695-3004980ad54e');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    position: relative;
+    padding: 20px 80px;
+}
+
+/* Navbar */
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* position: fixed; */
+}
+
+.logo-menu{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.logo img{
+    width: 55px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    gap: 35px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.menu li{
+    cursor: pointer;
+}
+
+.icons{
+    display: flex;
+    gap: 25px;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+hr{
+    margin-top: 20px;
+    border: 1px solid rgba(255,255,255,0.5);
+}
+
+/* Content */
+
+.content{
+    margin-top: 70px;
+    width: 500px;
+}
+
+.content h4{
+    letter-spacing: 10px;
+    font-size: 28px;
+    color: white;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.content h1{
+    font-size: 230px;
+    line-height: 170px;
+    font-weight: 300;
+    color: black;
+}
+
+.content h2{
+    font-size: 45px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.m-color{
+    color: #00A3FF;
+    font-weight: bold;
+}
+
+.content p{
+    font-size: 24px;
+    margin-top: 25px;
+}
+
+.buttons{
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+}
+
+button{
+    padding: 16px 28px;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-blue{
+    background: #0078ff;
+    color: white;
+    border: none;
+}
+
+.btn-blue:hover{
+    background: #005fd1;
+}
+
+.btn-dark{
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+}
+
+.btn-dark:hover{
+    background: white;
+    color: black;
+}
+
+/* Chat Box */
+
+.chat-box{
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+    width: 65px;
+    height: 65px;
+    background: white;
+    color: black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    cursor: pointer;
+}
+.bmw
+{
+    width: 100%;
+    height: 500px;
+    display: flex; 
+    /* align-items: flex-start; */
+    /* background-color: yellow; */
+}
+h2
+{
+    text-align: center;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    font-weight: lighter;
+    margin-top: 20px;
+}
+.main
+{
+    /* display: flex; */
+    /* justify-content: left; */
+}
+img{
+    width: 50px;
+    margin-top: 100px;
+    margin-left: 150px;
+}
+h4{
+    color: black;
+    margin-top:20px;
+    margin-left: 75px;
+    font-size: 30px;
+    font-weight: lighter;
+}
+.btn-light
+{
+    margin-top: 30px;
+    margin-left: 100px;
+}
+.main2
+{
+    color: black;
+    justify-content: center;
+    align-items: center;
+    
+}
+.main2-img
+{
+    /* background-color: white; */
+    border: 0px solid black;
+    /* width: 10px; */
+    margin-left: 175px;
+    
+}
+.h4
+{
+    margin-left: 170px;
+    margin-top: 24px;
+}
+/* .main-button
+{
+    margin-top: 30px;
+} */
+.btn-right
+{
+    margin-top: 30px;
+    margin-left: 250px;
+}
+.main3
+{
+    color: black;
+    /* justify-content: end;
+    /* align-items: flex-end; */
+} 
+.main3-img
+{
+    height: auto;
+    width: 100px;
+    margin-left: 140px;
+}
+.content
+{
+    color: black;
+    margin-right: ;
+}
+.btn-right-end
+{
+    margin-top: 33px;
+    margin-left: 225px;
+}
+.h-h4
+{
+    margin-top: -14px;
+    margin-left: 150px;
+}
+.btn-left
+{
+    margin-left: 225px;
+    margin-top: 30px;
+}
+.banner{
+    width: 100%;
+    height: 600px;
+    background: url('https://images.unsplash.com/photo-1555215695-3004980ad54e?q=80&w=1200&auto=format&fit=crop') no-repeat center center/cover;
+    position: relative;
+    border-radius: 10px;
+    overflow:hidden;
+}
+
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(0, 170, 255, 0.6), rgba(0,0,0,0.2));
+}
+
+.content{
+    position: absolute;
+    top: 50%;
+    left: 80px;
+    transform: translateY(-50%);
+    color: white;
+    z-index: 2;
+}
+
+.small-text{
+    letter-spacing: 8px;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.content h1{
+    font-size: 180px;
+    font-weight: 300;
+    line-height: 1;
+}
+
+.price{
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.btn-height{
+    padding: 16px 40px;
+    font-size: 20px;
+    border: none;
+    border-radius: 6px;
+    background: #0066ff;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-height:hover{
+    background: #004ecc;
+}
+
+.banner1{
+    width: 100%;
+    height: 600px;
+    background: url('https://4kwallpapers.com/images/walls/thumbs_3t/12621.jpg') center center/cover no-repeat;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding-left: 80px;
+    overflow: hidden;
+    justify-content: left;
+}
+
+.overlay2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 45%;
+    height: 100%;
+    /* background: rgba(0,0,0,0.55); */
+}
+
+.content2{
+    position: relative;
+    color: white;
+    z-index: 2;
+}
+
+.content2 h1{
+    font-size: 52px;
+    font-weight: 700;
+    margin-bottom: 80px;
+    margin-left: -150px;
+}
+
+.content2 p{
+    font-size: 22px;
+    letter-spacing: 1px;
+    margin-bottom: 100px;
+    font-weight: 600;
+}
+
+.btn{
+    width: 280px;
+    height: 75px;
+    border: 3px solid white;
+    background: transparent;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover{
+    background: white;
+    color: black;
+}
+
+.banner3{
+    width: 100%;
+    height: 550px;
+    background: url('https://st.arenaev.com/specs/bmw/bmw-ix1-xdrive30-2022-front1.jpg') center center/cover no-repeat;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding-left: 90px;
+}
+
+.overlay3{
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.35);
+}
+
+.content3{
+    position: relative;
+    z-index: 2;
+    color: white;
+    max-width: 500px;
+}
+
+.content3 h4{
+    font-size: 28px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.content3 h1{
+    font-size: 150px;
+    font-weight: 300;
+    line-height: 1;
+    margin-bottom: 20px;
+}
+
+.sub-title{
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 18px;
+}
+
+.desc{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 35px;
+}
+
+.btn7{
+    padding: 16px 45px;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn7:hover{
+    background: white;
+    color: black;
+}
+
+.offer-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+.offer-image img{
+    width: 750px;
+    height: 500pX;
+    display:block;
+    margin-left: 10px;
+}
+
+.offer-content{
+    max-width: 420px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.offer-content h1{
+    font-size: 48px;
+    font-weight: 300;
+    margin-bottom: 25px;
+    color: #222;
+}
+
+.offer-content p{
+    font-size: 22px;
+    line-height: 1.7;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.offer-content a{
+    text-decoration: none;
+    color: #000;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.offer-content a:hover{
+    color: #0070c9;
+}
+footer{
+    background: whitesmoke ;
+    color: black;
+    /* padding: 40px 80px; */
+}
+.footer-content{
+    display: inline-flex;
+    width: 100%;
+    /* height: 200px; */
+    /* border: 1px solid black; */
+    align-items: top;
+    gap: 20px;
+    position: relative;
+    /* padding: 40px 80px; */
+}
+.content1
+{
+    /* display: flex; */
+    /* align-items: center; */
+    gap: 30px;
+    line-height: 50px;
+    margin-left: 100px;
+    font-weight: lighter;
+    /* padding: 40px 80px; */
+}
+.content1 li
+{
+    list-style-type: none;
+}
+.content2
+{
+    /* display: flex; */
+    /* align-items: center; */
+    gap: 10px;
+    line-height: 50px;
+    color: black;
+    margin-left: 150px;
+    /* margin-top: 10px; */
+    font-weight: lighter;
+}
+.content2 h1
+{
+    font-size: 35px;
+    margin-left: 10px;
+}
+.content2 ul
+{
+    margin-top: -70px;
+}
+.content2 li
+{
+    list-style-type: none;
+    /* margin-top: 30px; */
+}
+.content3
+{
+    /* display: flex; */
+    /* align-items: center; */
+    gap: 30px;
+    line-height: 50px;
+    color: black;
+    margin-left: 100px;
+    margin-top: 10px;;
+}
+.content3 li
+{
+    list-style-type: none;
+}
+.content4
+{
+    /* display: flex; */
+    /* align-items: center; */
+    gap: 30px;
+    line-height: 50px;
+    color: black;
+    margin-left: 150px;
+    /* font-weight: lighter; */
+}
+.content4 li
+{
+    list-style-type: none;
+}
+.video
+{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* body
+{
+    background-color: white;
+    text-align: center;
+} */
+/* Media Query */
+@media screen and (max-width: 480px)
+/* { */
+    /* h1{
+        background-color: lightgreen;
+        font-size: 20px;
+    }
+} */
